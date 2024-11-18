@@ -9,32 +9,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="stopwacht">
-    <h2 id="timer">
-    00:00:00:00
-    </h2>
-    
-    <div id="actions ">
-
-        <button id="reset">
+   <main id="relogio">
+       <div id="stopwacht">
+           <h2 id="timer">00:00:00:00</h2>
+        </div>
+        
+        <button class="botoesRelogio">
             <i class="fa-solid fa-rotate-right"></i>
-    </button>
+        </button>
+        
+        <button class="botoesRelogio" action="start">
+            <i class="fa-solid fa-play"></i>
+        </button>
+        
+        <button class="botoesRelogio">
+            <i class="fa-solid fa-flag"></i>
+        </button>
+    </main>
 
-    
-    <button id="power" action="start">
-        <i class="fa-solid fa-play"></i>
-    </button>
+    <script src="src/javascript/script.js"></script>
 
-
-       <button id="mark">
-        <i class="fa-solid fa-flag"></i>
-       </button>
-    
-       
-     
-        <div id="mark"> </div>
-
-   
-   
 </body>
 </html>
