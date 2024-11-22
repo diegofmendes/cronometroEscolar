@@ -1,33 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Document</title>
-</head>
+
+   <link rel="stylesheet" href="css/style.css">
+<title> Temporizador </title>
+   
+   
+
+
+
+
+    <script src="script.js" defer></script>
 <body>
-   <main id="relogio">
-       <div id="stopwacht">
-           <h2 id="timer">00:00:00:00</h2>
-        </div>
-        
-        <button class="botoesRelogio">
-            <i class="fa-solid fa-rotate-right"></i>
-        </button>
-        
-        <button class="botoesRelogio" action="start">
-            <i class="fa-solid fa-play"></i>
-        </button>
-        
-        <button class="botoesRelogio">
-            <i class="fa-solid fa-flag"></i>
-        </button>
-    </main>
 
-    <script src="src/javascript/script.js"></script>
+
+
+
+
+
+
+ 
+
+
+    <form name="form_main">
+        <div>
+          <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
+        </div>
+     
+        <br />
+     
+        <button type="button" name="start">start</button>
+        <button type="button" name="pause">pause</button>
+        <button type="button" name="reset">reset</button>
+      </form>
+   
+   
+
+
+
 
 </body>
 </html>
