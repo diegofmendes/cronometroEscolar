@@ -63,7 +63,7 @@ function start() {
     document.getElementById('hour').innerText = returnData(hour);
     document.getElementById('minute').innerText = returnData(minute);
     document.getElementById('second').innerText = returnData(second);
-    document.getElementById('millisecond').innerText = returnData(millisecond).pop();
+    document.getElementById('millisecond').innerText = returnData(millisecond);
   }
  
   function returnData(input) {
