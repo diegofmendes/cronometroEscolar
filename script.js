@@ -40,13 +40,6 @@ function start() {
 
 
 
-
-
-
-
-
-
-
   function timer() {
     if ((millisecond += 10) == 1000) {
       millisecond = 0;
@@ -63,10 +56,10 @@ function start() {
     document.getElementById('hour').innerText = returnData(hour);
     document.getElementById('minute').innerText = returnData(minute);
     document.getElementById('second').innerText = returnData(second);
-    document.getElementById('millisecond').innerText = returnData(millisecond);
+    document.getElementById('millisecond').innerText = returnData(millisecond/10);
   }
  
   function returnData(input) {
-    return input > 10 ? input : `0${input}`
+    return input > 9 ? input : `0${input}`
   }
 
