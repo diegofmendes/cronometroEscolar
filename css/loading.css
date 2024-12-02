@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    overflow: hidden;
+
+    flex-direction: column;
+}
+
+#botaoLoad{
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border-color: black;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.barra{
+
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(252, 251, 250);
+
+    margin: 50px;
+    overflow: hidden;
+
+}
+
+#loader{
+    height: 100%;
+    width: 15%;
+    background-color: black;
+    border-radius: 200px;
+}
+
+
+/* ================================================= */
+
+@media only screen and (max-width: 1000px) {
+    body {
+      transform: scale(0.7);
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    body {
+        transform: scale(0.4);
+    }
+}

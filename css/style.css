@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+button{
+   
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 80px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: black;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+
+
+body{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 100vh;
+ background: linear-gradient(6deg, #5263c0, #202a74);
+
+
+}
+
+.formatoRelogio{
+
+    background-color: #262626;
+    height: 80px;
+    width: 120px;
+    border: 3px solid #d2d0d4;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 2px;
+    text-align: center;
+    display: flex;
+}
+
+#areaRelogio{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+    color: rgb(255, 251, 251);
+}
+
+#areaBotoes{
+    margin-top: 30px;
+}
+
+button:hover{
+
+
+    background-color: #c6d0da;
+}
+
+
+/* ================================================= */
+
+@media only screen and (max-width: 1000px) {
+    body {
+      transform: scale(0.7);
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    body {
+        transform: scale(0.4);
+    }
+}
